@@ -73,5 +73,19 @@ h1{
    /*----------
     Main Part 
    ----------- */
-
    
+    /* Main-sec-1  */
+.main-sec-1{
+    padding: 100px 150px;
+}
+.main-sec-1-title{
+    font-size: 23px;
+    text-align: center;
+}
+
+.collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding-top: 50px;
+}
