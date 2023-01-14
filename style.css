@@ -107,3 +107,18 @@ h1{
    font-weight: 1200px;
    color: rgb(115, 122, 129);
 }
+
+.Feature{
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-div>h2{
+    font-size: 33px;
+}
+
+.last-div>p{
+    font-size: 18px;
+    font-weight: 550;
+    color: rgb(115, 122, 129);
+}
