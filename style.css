@@ -1,12 +1,27 @@
 *{
     font-family: system-ui;
+    
+}
+
+ /* ------------
+   Header part  
+   -------------*/
+
+   /* head-sec-1  */
+
+h3{
+    font-size: 23px;
+}
+
+h1{
+    font-size: 45px;
 }
 
 .head-sec-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 100px;
+    margin: 50px 80px;
 }
 
 .head-nav>ul>li{
@@ -19,4 +34,44 @@
     margin-left: 20px;
     text-decoration: none;
     color: black;
+    font-size: 17px;
+    font-weight: 500;
 }
+
+     /* head-sec-2  */
+
+.head-sec-2{
+    display: flex;
+    margin-left: 80px; 
+    margin-bottom: 100px; 
+}
+
+.head-sec-2>div{
+    width: 50%;
+}
+
+.head-btn{
+    color: white;
+    background-color: rgb(236, 5, 121);
+    height: 40px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+    /* head-sec-3  */
+
+.head-sec-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+   /*----------
+    Main Part 
+   ----------- */
+
+   
