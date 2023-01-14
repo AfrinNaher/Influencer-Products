@@ -9,10 +9,14 @@
     margin: 50px 100px;
 }
 
-.head-nav>ul{
+.head-nav>ul>li{
     display: flex;
     justify-content: space-between;
-    text-decoration: none;
+    
 }
 
-
+.head-link{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
